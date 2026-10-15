@@ -1,0 +1,20 @@
+# Build-Erzeugnisse
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Einstellungen des Entwicklungsbetriebs (liegt neben main.py)
+config.json
+
+# Die Notiz eines Projekts. Sie enthaelt Ausschnitte dessen, was dem
+# Agenten geschrieben wurde - das gehoert nicht in ein oeffentliches
+# Repository. Wer sie doch versionieren will, nimmt diese Zeile heraus.
+AUFGABEN.md
+
+# Interne Arbeitsnotizen (Analysen, Plaene, Messprotokolle). Sie nennen
+# Pfade und Projekte dieses Rechners und bleiben deshalb lokal.
+intern/
