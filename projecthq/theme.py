@@ -51,6 +51,21 @@ THEMES = {
         "SELECT": "#003d00",
         "DISABLED": "#0a5c1a",
     },
+    # Fuer lange Sitzungen: mattes Dunkelgrau statt Schwarz, weiches
+    # Hellgrau statt leuchtender Schrift, gedaempfte Warnfarben. Der
+    # Kontrast bleibt gut lesbar (Text etwa 9:1), blendet aber nicht.
+    "gray": {
+        "BG": "#26282b",
+        "PANEL": "#2d3034",
+        "GREEN": "#c9ccd1",
+        "DIM": "#878c93",
+        "AMBER": "#d2b06c",
+        "RED": "#d47a7a",
+        "BORDER": "#36393e",
+        "HOVER": "#313439",
+        "SELECT": "#3c4046",
+        "DISABLED": "#55595f",
+    },
 }
 DEFAULT_THEME = "green"
 
@@ -59,6 +74,7 @@ THEME_LABELS = {
     "green": "GRÜN   STANDARD",
     "dos": "DOS / WINDOWS   BLAU",
     "hacker": "HACKER   NEONGRÜN",
+    "gray": "GRAU   AUGENSCHONEND",
 }
 
 FONT_FAMILY = "Consolas, 'Cascadia Mono', 'Courier New', monospace"

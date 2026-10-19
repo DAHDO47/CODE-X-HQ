@@ -232,8 +232,8 @@ def test_old_config_without_app_theme_still_loads(tmp_path):
     assert cfg.app_theme == "green"
 
 
-def test_all_three_themes_are_offered():
-    assert set(THEMES) == {"green", "dos", "hacker"}
+def test_all_four_themes_are_offered():
+    assert set(THEMES) == {"green", "dos", "hacker", "gray"}
 
 
 # --- Womit ein Projekt startet --------------------------------------------

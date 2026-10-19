@@ -174,6 +174,7 @@ TRANSLATIONS: dict[str, dict[str, str]] = {
     "GRÜN   STANDARD": {"en": "GREEN   DEFAULT", "bhs": "ZELENO   STANDARD", "tr": "YEŞİL   VARSAYILAN", "es": "VERDE   PREDETERMINADO"},
     "DOS / WINDOWS   BLAU": {"en": "DOS / WINDOWS   BLUE", "bhs": "DOS / WINDOWS   PLAVO", "tr": "DOS / WINDOWS   MAVİ", "es": "DOS / WINDOWS   AZUL"},
     "HACKER   NEONGRÜN": {"en": "HACKER   NEON GREEN", "bhs": "HACKER   NEONSKO ZELENO", "tr": "HACKER   NEON YEŞİL", "es": "HACKER   VERDE NEÓN"},
+    "GRAU   AUGENSCHONEND": {"en": "GRAY   EASY ON THE EYES", "bhs": "SIVO   UGODNO ZA OČI", "tr": "GRİ   GÖZ YORMAYAN", "es": "GRIS   SUAVE PARA LA VISTA"},
     "> SPRACHE": {"en": "> LANGUAGE", "bhs": "> JEZIK", "tr": "> DİL", "es": "> IDIOMA"},
     "> PROJEKTORDNER": {"en": "> PROJECTS FOLDER", "bhs": "> MAPA PROJEKATA", "tr": "> PROJE KLASÖRÜ", "es": "> CARPETA DE PROYECTOS"},
     "ÄNDERN ...": {"en": "CHANGE ...", "bhs": "PROMIJENI ...", "tr": "DEĞİŞTİR ...", "es": "CAMBIAR ..."},

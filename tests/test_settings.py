@@ -105,9 +105,9 @@ def test_an_unknown_theme_in_the_config_shows_the_default(app, config):
     assert _SettingsDialog(None, config).selected_theme() == "green"
 
 
-def test_all_three_themes_are_offered_in_the_dialog(app, config):
+def test_all_four_themes_are_offered_in_the_dialog(app, config):
     dialog = _SettingsDialog(None, config)
-    assert set(dialog.theme_buttons) == {"green", "dos", "hacker"}
+    assert set(dialog.theme_buttons) == {"green", "dos", "hacker", "gray"}
 
 
 def test_the_shown_folder_is_the_one_that_gets_saved(app, config, tmp_path, monkeypatch):
